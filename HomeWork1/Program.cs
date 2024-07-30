@@ -34,7 +34,7 @@ public class Car
     }
     public virtual void Drive(int distanceKM, int timeH)
     {
-        Console.WriteLine($" Average speed {distanceKM / timeH}" );
+        Console.WriteLine($" Average speed: {distanceKM / timeH}" );
     }
     ~Car()
     {
